@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour and Travel Agency Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+      
+    <a href="#" class="logo"><span>T</span>ravel</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#book">book</a>
+        <a href="#packages">packages</a>
+        <a href="#services">services</a>
+        <a href="#gallery">gallery</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+    </nav>
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+
+    </form>
+
+ </header>   
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="" id="loginform">
+        <div class="alert">Your Message Sent</div>
+       <h3>login</h3>
+       <input type="email" id="emailid" class="box" placeholder="enter your email">
+       <input type="password" id="password" class="box" placeholder="enter your password">
+       <input type="submit" value="login now" class="btn">
+       <input type="checkbox" id="remember">
+       <label for="remember">remember me</label>
+       <p>forget password? <a href="#">click here</a></p>
+       <p>don't have any account? <a href="#">register now</a></p>
+    </form>
+</div>    
+
+<section class="home" id="home">
+    <div class="content">
+        <h3>adventure is worthwhile</h3>
+        <p>discover new places with us,adventure awaits</p>
+        <p>Let's Enjoy</p>
+        <!-- <a href="#" class="btn">discover more</a> -->
+    </div>
+
+    <div class="video-container">
+      <video src="beach.mp4" autoplay loop muted></video>
+    </div>   
+</section>
+
+<section class="book" id="book">
+    <h1 class="heading">
+       
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+        
+    </h1>
+    <div class="row">
+        <div class="image">
+            <img src="https://img.freepik.com/free-photo/booking-hotel-reservation-travel-destination-concept_53876-121094.jpg" alt="">
+
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <h3>where to</h3>
+                <input type="text" placeholder="place name">
+            </div>
+            <div class="inputBox">
+                <h3>how many</h3>
+                <input type="number" placeholder="number of guests">
+            </div>
+            <div class="inputBox">
+                <h3>arrivals</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>leaving</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="book now">
+        </form>
+    </div>
+</section>
+
+<section class="packages" id="packages">
+    <h1 class="heading">
+       
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/00/9a/b8.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-maker-alt"></i> india </h3>
+                <p>let India touch your heart and soul, leaving you with memories to cherish for a lifetime. Welcome to Incredible India, where every moment is an adventure and every experience is a treasure!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">₹8000<span>₹14000</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/cf/69/07/sydney-harbour.jpg?w=500&h=400&s=1" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-maker-alt"></i> sydney </h3>
+                <p>Whether you're a thrill-seeker seeking adventure or a laid-back traveler in search of relaxation, this dynamic city offers something for everyone. So come and experience the magic of Sydney!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">₹9000<span>₹13000</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://www.thetravelubudbali.com/wp-content/uploads/2024/07/one-day-ubud-bali-tour-package.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-maker-alt"></i> hawaii </h3>
+                <p>Beneath the swaying palms and against the backdrop of azure waters, Hawaii beckons with its aloha spirit, offering an enchanting blend of natural beauty, cultural richness, and endless adventure!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">₹10000<span>₹13000</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://i.pinimg.com/736x/57/e4/03/57e40361d7486e564ae934006094c498.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-maker-alt"></i> japan </h3>
+                <p>Japan, a land of contrasts, where ancient tradition meets modern innovation. Immerse yourself in the harmony of cherry blossoms and bustling cityscapes, where every moment is a journey through time!</p>
+                <div class="stars">
+              
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">₹12000<span>₹18000</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://thumbs.dreamstime.com/b/paris-eiffel-tower-river-seine-sunset-france-one-most-iconic-landmarks-107376702.jpg?w=768" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-maker-alt"></i> paris </h3>
+                <p>Paris, the City of Love, where every street corner holds a story. From the Eiffel Tower's elegant silhouette to the charming cobblestone alleys of Montmartre, embrace the romance and artistry of this timeless metropolis!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">₹9000<span>₹10000</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://t4.ftcdn.net/jpg/02/43/60/05/360_F_243600569_wuobKhXlrYP6b2yH95t9TQ7MkT7sUxVG.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-maker-alt"></i> egypt </h3>
+                <p>Egypt, where ancient wonders beckon from the sands of time. Explore the majestic pyramids of Giza and sail the timeless Nile, unraveling the mysteries of a civilization that has captivated the world for millennia!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">₹9500<span>₹11000</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="services" id="services">
+    <h1 class="heading">
+       
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+        <div class="box">
+        <i class="fas fa-hotel"></i>
+        <h3>affordable hotels</h3>
+        <p>Discover affordable comfort and convenience at our selection of budget-friendly hotels!</p>
+    </div>
+    <div class="box">
+        <i class="fas fa-utensils"></i>
+        <h3>food and drinks</h3>
+        <p>Experience a culinary journey like no other with our exquisite array of dishes, catering to every palate and preference!</p>
+    </div>
+    <div class="box">
+        <i class="fas fa-bullhorn"></i>
+        <h3>safety guide</h3>
+        <p>Your safety is our priority; explore with peace of mind knowing that we adhere to the highest standards of safety protocols!</p>
+    </div>
+    <div class="box">
+        <i class="fas fa-globe-asia"></i>
+        <h3>around the world</h3>
+        <p>Embark on a global journey with our comprehensive travel services, designed to take you to the farthest corners of the world!</p>
+    </div>
+    <div class="box">
+        <i class="fas fa-plane"></i>
+        <h3>fastest travel</h3>
+        <p>Embark on swift and seamless journeys with our efficient transportation services, ensuring you reach your destination in record time!</p>
+    </div>
+    <div class="box">
+        <i class="fas fa-hiking"></i>
+        <h3>adventures</h3>
+        <p>Fuel your sense of adventure with our exhilarating range of experiences, promising unforgettable thrills and exploration at every turn!</p>
+    </div>
+
+</div>
+</section>
+
+<section class="gallery" id="gallery">
+    <h1 class="heading">
+        <Span>g</Span>
+        <Span>a</Span>
+        <Span>l</Span>
+        <Span>l</Span>
+        <Span>e</Span>
+        <Span>r</Span>
+        <Span>y</Span>
+
+    </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="https://static.vecteezy.com/system/resources/previews/026/717/001/non_2x/group-of-happy-friends-and-laughing-tourism-travel-people-sharing-good-and-positive-mood-backpack-camping-hiking-journey-travel-trek-concept-with-blurred-background-generative-ai-illustration-free-photo.jpg" alt="">
+            <div class="content">
+                <h3>wonderful trip</h3>
+                <p>Memorable adventures with dear friends!</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://atriatourist.com/wp-content/uploads/2024/08/destination-1.jpg" alt="">
+            <div class="content">
+                <h3>Memorable moments</h3>
+                <p>Immersed in lush natural beauty!</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://static.iwmbuzz.com/wp-content/uploads/2021/08/6-mental-health-benefits-of-travelling-see-here-396x223.jpeg" alt="">
+            <div class="content">
+                <h3>happy vibes</h3>
+                <p>Golden horizon, waves whispering softly!</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://entrepreneurhub.lk/wp-content/uploads/2020/02/world-06-636x420.jpg" alt="">
+            <div class="content">
+                <h3>chill out</h3>
+                <p>Serene river winding through peaks!</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://images.news18.com/ibnlive/uploads/2023/04/image-34-16815489503x2.jpg?impolicy=website&width=640&height=480" alt="">
+            <div class="content">
+                <h3>best memories</h3>
+                <p>Parisian charm, streets alive, enchanting!</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRsH0EMDlCUTnVGT6qYpnK2_EsXMOWy33OqOKaXn7ZJYk9sCnGM" alt="">
+            <div class="content">
+                <h3>amazing place</h3>
+                <p>Summits, solitude, nature's grandeur awaits!</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="review" id="review">
+    <h1 class="heading">
+        <Span>r</Span>
+        <Span>e</Span>
+        <Span>v</Span>
+        <Span>i</Span>
+        <Span>e</Span>
+        <Span>w</Span>
+       
+    </h1>
+                <div class="box">
+                    <img src="https://cdn.prod.website-files.com/5f6cc9cd16d59d990c8fca33/60f13692bf7a7eeaf4fc49c1_5fea6a85821aa42af5b6eb2b_2d07d-px0l903g.jpeg" alt="">
+                    <h3>sofia garcia</h3>
+                    <p>Exploring new cultures felt like wandering through a living, breathing storybook. Each destination whispered tales of history and dreams yet to unfold!</p>
+                    <div class ="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSu8XsjnXt-zKpy9R8_fuThVggi-N2bhnymy_kXv7H2vGHU0ijz" alt="">
+                    <h3>tej martinez</h3>
+                    <p>Every journey was a brushstroke on the canvas of my memories, painting vivid landscapes of adventure and self-discovery!</p>
+                    <div class ="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtsyKNOtOdYf4gNuaIGPb6pR2paun8iczSiuffq_k1Esz5xQEn" alt="">
+                    <h3>elena santos</h3>
+                    <p>Traveling opened the door to a world of flavors, each meal a symphony of tastes echoing the culture of its origin!</p>
+                    <div class ="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+        </div>
+</section>
+
+<section class="contact" id="contact">
+    <h1 class="heading">
+        <Span>c</Span>
+        <Span>o</Span>
+        <Span>n</Span>
+        <Span>t</Span>
+        <Span>a</Span>
+        <Span>c</Span>
+        <Span>t</Span>
+    </h1>
+
+    <div class="row">
+        <div class="image">
+           <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQNcvSVBT6exJadS6WzO6Af9e2SX3-E25Knj1R-442bAzwimDMF">
+        </div>
+        <form action="" id="contactform">
+            <div class="alerts">Your Message Sent</div>
+            <div class="inputBox">
+                <input type="text" id="name" placeholder="name">
+                <input type="email" id="mail" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" id="num" placeholder="number">
+                <input type="text" id="sub" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="mess" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+    </div>
+</section>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
